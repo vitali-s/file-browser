@@ -1,4 +1,6 @@
-# FileBrowser
+[![CircleCI](https://circleci.com/gh/vitali-shcharbin-epam/file-browser/tree/master.svg?style=shield)](https://circleci.com/gh/vitali-shcharbin-epam/file-browser/tree/master)
+
+# File Browser
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
