@@ -35,8 +35,6 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-
-      - run: export CHROME_BIN=/usr/bin/chromium-browser
         
       # run linting
       - run: yarn lint
