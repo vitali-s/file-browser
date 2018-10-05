@@ -21,6 +21,7 @@ module.exports = function (config) {
       fixWebpackSourcePaths: true
     },
     reporters: ['progress', 'kjhtml'],
+    listenAddress: '127.0.0.1',
     hostname: '127.0.0.1',
     port: 9876,
     colors: true,
