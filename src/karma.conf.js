@@ -21,8 +21,8 @@ module.exports = function (config) {
       fixWebpackSourcePaths: true
     },
     reporters: ['progress', 'kjhtml'],
-    listenAddress: 'localhost',
-    hostname: 'localhost',
+    listenAddress: '127.0.0.1',
+    hostname: '127.0.0.1',
     port: 9876,
     colors: true,
     logLevel: config.LOG_DEBUG,
@@ -35,10 +35,8 @@ module.exports = function (config) {
           '--no-sandbox',
           '--headless',
           '--disable-gpu',
-          '--disable-translate',
           '--disable-extensions',
-          '--disable-web-security',
-          '--disable-setuid-sandbox'
+          '--disable-web-security'
         ]
       }
     },
