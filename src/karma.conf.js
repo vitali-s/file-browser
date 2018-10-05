@@ -21,6 +21,7 @@ module.exports = function (config) {
       fixWebpackSourcePaths: true
     },
     reporters: ['progress', 'kjhtml'],
+    hostname: '127.0.0.1',
     port: 9876,
     colors: true,
     logLevel: config.LOG_DEBUG,
@@ -36,8 +37,7 @@ module.exports = function (config) {
           '--disable-translate',
           '--disable-extensions',
           '--disable-web-security',
-          '--disable-setuid-sandbox',
-          '--remote-debugging-port=9222'
+          '--disable-setuid-sandbox'
         ]
       }
     },
