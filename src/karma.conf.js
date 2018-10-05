@@ -34,7 +34,10 @@ module.exports = function (config) {
           '--headless',
           '--disable-gpu',
           '--disable-translate',
-          '--disable-extensions'
+          '--disable-extensions',
+          '--disable-web-security',
+          '--disable-setuid-sandbox',
+          '--remote-debugging-port=9222'
         ]
       }
     },
